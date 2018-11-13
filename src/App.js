@@ -25,7 +25,6 @@ class App extends Component {
       newText = 'Sorry no results. Input a new noun.'
     }
     this.setState({slapText: newText});
-
   }
 
   onChange = (e) => {
